@@ -1,0 +1,32 @@
+app/
+├── api/
+│   ├── auth/
+│   │   ├── register/
+│   │   │   └── route.ts
+│   │   ├── login/
+│   │   │   └── route.ts
+│   │   ├── logout/
+│   │   │   └── route.ts
+│   │   └── [...nextauth]/
+│   │       └── route.ts
+│   ├── resumes/
+│   │   ├── route.ts
+│   │   └── [id]/
+│   │       ├── route.ts
+│   │       ├── export/
+│   │       │   ├── pdf/
+│   │       │   │   └── route.ts
+│   │       │   ├── docx/
+│   │       │   │   └── route.ts
+│   │       │   └── png/
+│   │       │       └── route.ts
+│   │       └── share/
+│   │           └── route.ts
+│   ├── templates/
+│   │   ├── route.ts
+│   │   └── [id]/
+│   │       └── route.ts
+│   ├── upload/
+│   │   └── route.ts
+│   └── analytics/
+│       └── route.ts
